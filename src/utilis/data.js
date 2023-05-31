@@ -1,6 +1,7 @@
 import BritishArmy from "../resources/britisharmy.png";
 import IndianArmy from "../resources/indianarmy.png";
 import SingaporePolice from "../resources/singapore.png";
+import BritishGurkhaKhukuri from "../resources/gurkhaholdingkhukuri.jpg";
 import NepalArmy from "../resources/nepalarmy.png";
 import NepalPolice from "../resources/nepalpolice.png";
 import Testmonials1 from "../resources/male1.jpg";
@@ -12,12 +13,30 @@ import Gallery3 from "../resources/BAthree.jpg";
 import Gallery4 from "../resources/nepaliarmyGallery.jpg";
 
 export const data = {
+  menuslist: [
+    {
+      id: 1,
+      menu: "Home",
+    },
+    {
+      id: 2,
+      menu: "About",
+    },
+    {
+      id: 3,
+      menu: "Courses",
+    },
+    {
+      id: 4,
+      menu: "Contact",
+    },
+  ],
   /**Hero Page Related Data */
   heroTitle: "Dream, Work & Succeed",
-  heroMoto: "Want to become a Soldier",
+  heroMotto: "Want to become a Soldier",
   heroImage: BritishArmy,
   //About Section//
-  aboutImageUrl: SingaporePolice,
+  aboutImageUrl: BritishGurkhaKhukuri,
   aboutSection1:
     "Brave Gorkha is a government authorized & one of the leading institution in Western region of Nepal.It mainly focus  on recruiting trainee for Pre British Gurkha Army and Singapore Police Force. We are helping potential recruits to acheive their dreams who willing to join Gurkha Army. Brave Gorkha is a government authorized & one of the leading institution in Western region of Nepal. It mainly focus  on recruiting trainee for Pre British Gurkha Army and Singapore Police Force. We are helping potential recruits to acheive their dreams who willing to join Gurkha Army.",
   aboutSection2:
