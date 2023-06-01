@@ -4,7 +4,7 @@ import { data } from "../../../utilis/data";
 const Navbar = () => {
   const { menuslist } = data;
   return (
-    <div className="flex items-center justify-between w-full h-20 fixed px-4">
+    <div className="flex items-center justify-between w-full h-20 px-4">
       <div>
         <p className="text-2xl font-signature text-primary-color uppercase tracking-wide ml-2">
           BraveGurkha

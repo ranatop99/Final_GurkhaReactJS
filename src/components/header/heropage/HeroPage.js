@@ -13,10 +13,10 @@ const HeroPage = () => {
             </h1>
             <p className="text-xl max-w-md py-10">{heroMotto}</p>
             <div className="md:flex gap-8">
-              <button className="py-5 px-10 bg-green-color border-none rounded-xl cursor-pointer">
+              <button className="py-5 px-10 bg-green-color border-none rounded-xl cursor-pointer hover:scale-110 duration-300">
                 View Program
               </button>
-              <button className="py-5 px-10 border-solid border-2 border-black-color rounded-xl cursor-pointer">
+              <button className="py-5 px-10 border-solid border-2 border-black-color rounded-xl cursor-pointer hover:scale-110 duration-300">
                 Learn More...
               </button>
             </div>
