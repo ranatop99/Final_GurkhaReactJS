@@ -92,19 +92,19 @@ export const data = {
   testimonials: [
     {
       imageLink: Testmonials1,
-      statement: "One of the best training center in town",
+      statement: "'One of the best training center in town'",
       name: "Ram Bahadur Thapa",
       position: "trainee",
     },
     {
       imageLink: Testmonials2,
-      statement: "One of the best training center in town",
+      statement: "'One of the best training center in town'",
       name: "Kaji Basnet",
       position: "2016 intake",
     },
     {
       imageLink: Testmonials3,
-      statement: "One of the best training center in town",
+      statement: "'One of the best training center in town'",
       name: "Junga Bahadur Rana",
       position: "2020 intake",
     },
